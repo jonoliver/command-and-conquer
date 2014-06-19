@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		<style>
+			code.tagline {
+				text-align: center;
+				margin-top: 40px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>[Command]</h1>
+					<h3>and</h3>
+					<h1>Conquer</h1>
+					<pre><code class='tagline'>make the command line do your bidding</code></pre>
+					<aside class="notes">
+						For my first personal persuit, I wanted to learn how to harness the power of the command line to make myself a more efficient programmer.
+					</aside>
+				</section>
+
+				<section>
+					<section id="know-your-tools">
+						<h2>Know your tools</h2>
+						<p class="fragment">when you know your tools ...</p>
+						<ol>
+							<li class="fragment">you work more <em>efficiently</em></li>
+							<li class="fragment">you increase your <em>flow</em></li>
+							<li class="fragment">the tools do the hard work</li>
+							<li class="fragment"><strong>your job gets easier</strong></li>
+						</ol>
+
+						<aside class="notes">
+							flow- reduce resistance, allowing to concentrate on task at hand
+							as a result
+						</aside>
+					</section>
+				</section>
+
+				<section id='communication'>
+					<h2>Communication</h2>
+					<!--
+					<p class="fragment">We communicate through our keyboard</p>
+					<p class="fragment">Communication breakdown is caused by:</p>
+					<ul>
+						<li class="fragment">fat fingers</li>
+						<li class="fragment">faulty memories</li>
+					</ul>
+				-->
+					<blockquote class="fragment">The more concisely we can communicate with our computer, the happier we are as programmers</blockquote>
+					<aside class="notes"></aside>
+				</section>
+
+				<section id="personal-goals">
+					<h2>Personal Goals</h2>
+					<ul>
+						<li class="fragment">Improve efficiency in the terminal</li>
+						<li class="fragment">Increase understanding of command line tools</li>
+						<li class="fragment">create a terminal environment that facilitates this</li>
+					</ul>
+					<aside class="notes">Increase understanding of command line tools  (how they can help make me more productive)</aside>
+				</section>
+				<section id="project-goals">
+					<h2>Project Goals</h2>
+					<ul>
+						<li class="fragment">Simple, but informative prompt</li>
+						<li class="fragment">Easily installable</li>
+						<li class="fragment">Easily configurable</li>
+						<li class="fragment">Visually discernable (color as context)</li>
+						<li class="fragment">Useful aliases...</li>
+					</ul>
+					<p class="fragment">...that are easy to look up...</p>
+					<p class="fragment">...and easy to modify</p>
+					<aside class="notes">look up and commit to memory</aside>
+				</section>
+
+				<section id="demo">
+					<h1>Let's go commando!</h1>
+				</section>
+				<section id="under-the-hood">
+					<h2>Under the Hood</h2>
+					<h3 class="fragment">Zsh</h3>
+					<ul>
+						<li class="fragment">extended bash shell</li>
+						<li class="fragment">command completion</li>
+						<li class="fragment">shared history</li>
+						<li class="fragment">spelling correction</li>
+						<li class="fragment">themable & customizable</li>
+					</ul>
+					<br>
+					<br>
+					<h3 class="fragment">Oh-My-Zsh</h3>
+					<ul>
+						<li class="fragment">framework for zsh configuration</li>
+						<li class="fragment">themes and plugins</li>
+					</ul>
+				</section>
+				<section id='dotfiles'>
+					<h2>Install it!</h2>
+					<a target="_blank" href="http://github.com/jonoliver/dotfiles">github.com/jonoliver/dotfiles</a>
+				</section>
+
+				<section id="takeaways">
+					<h2>Takeaways</h2>
+					<ul>
+						<li class="fragment">Customize your terminal</li>
+						<li class="fragment">Time up front pays off</li>
+						<li class="fragment">Alias <em>everything</em><span class="fragment"> ... but ...</span></li>
+						<li class="fragment">understand your aliases</li>
+						<li class="fragment">Shell scripting can be hard</li>
+						<li class="fragment">The terminal is powerful</li>
+					</ul>
+				</section>
+
+				<section id="contact">
+					<h2>Cheers!</h2>
+					<p><a>jon.oliver@pomiet.com</a></p>
+					<p><a href="http://github.com/jonoliver">github.com/jonoliver</a></p>
+					<p><a href="http://twitter.com/htmlephant">@htmlephant</a></p>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
