@@ -1,6 +1,6 @@
 ##Command and Conquer
-[Presentation slides](https://jonoliver.github.io/command-and-conquer/)
-[Example dotfiles](https://github.com/jonoliver/dotfiles)
+- [Presentation slides](https://jonoliver.github.io/command-and-conquer/)
+- [Example dotfiles](https://github.com/jonoliver/dotfiles)
 
 ####Resources
 - https://dotfiles.github.io/
