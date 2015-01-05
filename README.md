@@ -12,6 +12,6 @@
 - http://www.pairprogramwith.me/
 
 ####Bash emulators for Windows:
-- (Git for Windows)[https://msysgit.github.io/]
-- (Cygwin)[https://www.cygwin.com/]
-- (CMDer)[https://bliker.github.io/cmder/]
+- [Git for Windows](https://msysgit.github.io/)
+- [Cygwin](https://www.cygwin.com/)
+- [CMDer](https://bliker.github.io/cmder/)
