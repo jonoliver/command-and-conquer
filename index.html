@@ -39,6 +39,19 @@
 				text-align: center;
 				margin-top: 40px;
 			}
+			.reveal li code {
+				color: #efef8f;
+				background: #3F3F3F;
+				margin: 0 5px;
+				padding: 0 20px;
+				border: 1px solid #373737;
+				/*box-shadow: 0 0 6px rgba(0,0,0,.3);*/
+			}
+			#logo {
+				border: none;
+				background: 0;
+				box-shadow: none;
+			}
 		</style>
 	</head>
 
@@ -53,43 +66,103 @@
 					<h3>and</h3>
 					<h1>Conquer</h1>
 					<pre><code class='tagline'>make the command line do your bidding</code></pre>
+				</section>
+
+				<section id="know-your-tools">
+					<h2>Know your tools</h2>
+					<!-- <p class="fragment">when you know your tools ...</p>
+					<ol>
+						<li class="fragment">you work more <em>efficiently</em></li>
+						<li class="fragment">you increase your <em>flow</em></li>
+						<li class="fragment">the tools do the hard work</li>
+						<li class="fragment"><strong>your job gets easier</strong></li>
+					</ol>
+
 					<aside class="notes">
-						For my first personal persuit, I wanted to learn how to harness the power of the command line to make myself a more efficient programmer.
-					</aside>
+						flow- reduce resistance, allowing to concentrate on task at hand
+						as a result
+					</aside> -->
 				</section>
 
 				<section>
-					<section id="know-your-tools">
-						<h2>Know your tools</h2>
-						<p class="fragment">when you know your tools ...</p>
-						<ol>
-							<li class="fragment">you work more <em>efficiently</em></li>
-							<li class="fragment">you increase your <em>flow</em></li>
-							<li class="fragment">the tools do the hard work</li>
-							<li class="fragment"><strong>your job gets easier</strong></li>
-						</ol>
+					<p>As a developer, your most important tool is...</p>
+					<div class="fragment">
+						<img src="img/homer_brain.gif" alt="">
+						<p>your brain.</p>
+					</div>
+				</section>
 
-						<aside class="notes">
-							flow- reduce resistance, allowing to concentrate on task at hand
-							as a result
-						</aside>
+
+				<section>
+					<section>
+						<p>When you don't know your tools...</p>
+						<img class="fragment" src="img/homer_hard_life.gif" alt="">
+					</section>
+					<section>
+						<img src="img/homer_stapler.gif" alt="">
+					</section>
+					<section>
+						<img src="img/homer_hammer.gif" alt="">
+					</section>
+				</section>
+				<section>
+					<p>But when you know your tools ...</p>
+				</section>
+				<section>
+					<p>you work more <em>efficiently</em>...</p>
+					<img src="img/moe_efficient.gif" alt="">
+				</section>
+				<section>
+					<section>
+						<p>the tools do the hard work...</p>
+						<img src="img/homer_treadmill.gif" alt="">
+					</section>
+					<section>
+						<img src="img/rooster.gif" alt="">
 					</section>
 				</section>
 
-				<section id='communication'>
+				<section>
+					<p>your job gets <strong>easier!</strong></p>
+					<img src="img/homer_air_guitar.gif" alt="">
+				</section>
+
+				<!-- <section id='communication'>
 					<h2>Communication</h2>
-					<!--
+
 					<p class="fragment">We communicate through our keyboard</p>
 					<p class="fragment">Communication breakdown is caused by:</p>
 					<ul>
 						<li class="fragment">fat fingers</li>
 						<li class="fragment">faulty memories</li>
 					</ul>
-				-->
+
 					<blockquote class="fragment">The more concisely we can communicate with our computer, the happier we are as programmers</blockquote>
 					<aside class="notes"></aside>
+				</section> -->
+				<section>
+					<h2>How can it help me?</h2>
+					<ul>
+						<li class="fragment">Faster file navigation</li>
+						<li class="fragment">
+							Easy file/folder manipulation
+							<br>
+							<span class="fragment">
+								Create <code class="inline">touch</code>, delete <code class="inline">rm</code>, copy <code>cp</code>, move and rename files <code>mv</code>
+							</span>
+						</li>
+						<!-- <li class="fragment">Create, delete, move and rename files and directories</li> -->
+						<li class="fragment">Search files or text with <code>grep</code> and <code>ack</code></li>
+						<li class="fragment">Manipulate text with <code>sed</code> and <code>awk</code></li>
+						<li class="fragment">Interact with remote machines with <code>ssh</code></li>
+						<li class="fragment">Transfer data and files remotely with <code>curl</code> and <code>scp</code></li>
+						<li class="fragment">Automate things with <code>bash</code> scripts</li>
+						<li class="fragment">Schedule scripts with <code>cron</code></li>
+					</ul>
 				</section>
-
+				<!-- <section id="goals">
+					<h2>How can I get better with the CLI?</h2>
+				</section>
 				<section id="personal-goals">
 					<h2>Personal Goals</h2>
 					<ul>
@@ -115,7 +188,7 @@
 
 				<section id="demo">
 					<h1>Let's go commando!</h1>
-				</section>
+				</section> -->
 				<section id="under-the-hood">
 					<h2>Under the Hood</h2>
 					<h3 class="fragment">Zsh</h3>
@@ -135,8 +208,11 @@
 					</ul>
 				</section>
 				<section id='dotfiles'>
-					<h2>Install it!</h2>
-					<a target="_blank" href="http://github.com/jonoliver/dotfiles">github.com/jonoliver/dotfiles</a>
+					<h2>Check it out!</h2>
+					<a target="_blank" href="http://github.com/robbyrussell/oh-my-zsh">github.com/robbyrussell/oh-my-zsh</a>
+					<br>
+					<br>
+					<a class='fragment' target="_blank" href="http://github.com/jonoliver/dotfiles">github.com/jonoliver/dotfiles</a>
 				</section>
 
 				<section id="takeaways">
@@ -144,18 +220,26 @@
 					<ul>
 						<li class="fragment">Customize your terminal</li>
 						<li class="fragment">Time up front pays off</li>
-						<li class="fragment">Alias <em>everything</em><span class="fragment"> ... but ...</span></li>
-						<li class="fragment">understand your aliases</li>
-						<li class="fragment">Shell scripting can be hard</li>
-						<li class="fragment">The terminal is powerful</li>
+						<li class="fragment">Keep your dotfiles in source control</li>
+						<li class="fragment">Alias <em>everything</em><span class="fragment"> ... but ...</span>
+							<br>
+							<span class="fragment">understand your aliases</span>
+						</li>
+						<li class="fragment">Read the effin' <code>man</code></li>
+						<li class="fragment">The terminal is powerful ...
+							<br>
+							<span class="fragment">... use your power for good!</span>
+						</li>
 					</ul>
 				</section>
 
 				<section id="contact">
 					<h2>Cheers!</h2>
+					<img src="img/cheers.gif" alt="">
 					<p><a>jon.oliver@pomiet.com</a></p>
 					<p><a href="http://github.com/jonoliver">github.com/jonoliver</a></p>
 					<p><a href="http://twitter.com/htmlephant">@htmlephant</a></p>
+					<a href="http://www.pomiet.com"><img id="logo" src="img/pomiet-logo.png" alt=""></a>
 				</section>
 			</div>
 
