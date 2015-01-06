@@ -79,6 +79,7 @@ tmux attach -t "session_name"
 - https://github.com/robbyrussell/oh-my-zsh
 - http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
 - http://iterm2colorschemes.com/
+- [Tmux cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
 - https://pragprog.com/book/bhtmux/tmux
 - http://pivotallabs.com/how-we-use-tmux-for-remote-pair-programming/
 - http://www.pairprogramwith.me/
