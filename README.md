@@ -1,6 +1,7 @@
 ##Command and Conquer
 - [Presentation slides](https://jonoliver.github.io/command-and-conquer/)
-- [Example dotfiles](https://github.com/jonoliver/dotfiles)
+- [Oh-my-zsh](github.com/robbyrussell/oh-my-zsh)
+- [My dotfiles](https://github.com/jonoliver/dotfiles)
 
 ####Commands and Functions
 ```bash
@@ -76,7 +77,6 @@ tmux attach -t "session_name"
 
 ####Resources
 - https://dotfiles.github.io/
-- https://github.com/robbyrussell/oh-my-zsh
 - http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
 - http://iterm2colorschemes.com/
 - [Tmux cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
