@@ -1,6 +1,6 @@
 ##Command and Conquer
 - [Presentation slides](https://jonoliver.github.io/command-and-conquer/)
-- [Oh-my-zsh](github.com/robbyrussell/oh-my-zsh)
+- [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [My dotfiles](https://github.com/jonoliver/dotfiles)
 
 ####Commands and Functions
