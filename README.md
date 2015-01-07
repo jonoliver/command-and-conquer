@@ -50,13 +50,6 @@ mkcd() { mkdir -p "$@" && cd "$_"; }
 # same as above, but also intialize git repo
 new(){ mkcd $@ && git init }
 
-# search google from the command line!
-ggl() {
-  arg="$@"
-  encodedarg=`urlencode $arg`
-  open "https://www.google.com/search?hl=en#q=$encodedarg"
-}
-
 
 # tmux
 
