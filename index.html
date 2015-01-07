@@ -52,6 +52,9 @@
 				background: 0;
 				box-shadow: none;
 			}
+			.padded_list li{
+				margin: 10px 0;
+			}
 		</style>
 	</head>
 
@@ -68,20 +71,13 @@
 					<pre><code class='tagline'>make the command line do your bidding</code></pre>
 				</section>
 
+				<section id="reference">
+					<h3>Slides, notes and references at</h3>
+					<p><a target="_blank" href="https://github.com/jonoliver/command-and-conquer/">github.com/jonoliver/command-and-conquer</a></p>
+				</section>
+
 				<section id="know-your-tools">
 					<h2>Know your tools</h2>
-					<!-- <p class="fragment">when you know your tools ...</p>
-					<ol>
-						<li class="fragment">you work more <em>efficiently</em></li>
-						<li class="fragment">you increase your <em>flow</em></li>
-						<li class="fragment">the tools do the hard work</li>
-						<li class="fragment"><strong>your job gets easier</strong></li>
-					</ol>
-
-					<aside class="notes">
-						flow- reduce resistance, allowing to concentrate on task at hand
-						as a result
-					</aside> -->
 				</section>
 
 				<section>
@@ -118,6 +114,9 @@
 						<img src="img/homer_treadmill.gif" alt="">
 					</section>
 					<section>
+						<img src="img/drinking_bird.gif" alt="">
+					</section>
+					<section>
 						<img src="img/rooster.gif" alt="">
 					</section>
 				</section>
@@ -141,28 +140,28 @@
 				</section> -->
 				<section>
 					<h2>How can it help me?</h2>
-					<ul>
-						<li class="fragment">Faster file navigation</li>
+					<ul class='padded_list'>
+						<li class="fragment">Faster file system navigation with <code>cd</code></li>
 						<li class="fragment">
 							Easy file/folder manipulation
-							<br>
-							<span class="fragment">
-								Create <code class="inline">touch</code>, delete <code class="inline">rm</code>, copy <code>cp</code>, move and rename files <code>mv</code>
-							</span>
-						</li>
+							<!-- <br>
+							<ul class="fragment">
+								<li>Create: <code>touch</code> for files, <code>mkdir</code>for folders</li>
+								<li>Delete: <code>rm</code> for files, <code>rmdir</code>for folders</li>
+								<li>Copy: <code>cp</code></li>
+								<li>Move, Rename: <code>mv</code></li>
+							</ul>
+						</li> -->
 						<!-- <li class="fragment">Create, delete, move and rename files and directories</li> -->
-						<li class="fragment">Search files or text with <code>grep</code> and <code>ack</code></li>
-						<li class="fragment">Manipulate text with <code>sed</code> and <code>awk</code></li>
-						<li class="fragment">Interact with remote machines with <code>ssh</code></li>
+						<li class="fragment">Search files or text with <code>grep</code></li>
+						<li class="fragment">Manipulate text with <code>awk</code></li>
 						<li class="fragment">Transfer data and files remotely with <code>curl</code> and <code>scp</code></li>
+						<li class="fragment">Interact with remote machines with <code>ssh</code></li>
 						<li class="fragment">Automate things with <code>bash</code> scripts</li>
 						<li class="fragment">Schedule scripts with <code>cron</code></li>
 					</ul>
 				</section>
-				<!-- <section id="goals">
-					<h2>How can I get better with the CLI?</h2>
-				</section>
-				<section id="personal-goals">
+				<!-- <section id="personal-goals">
 					<h2>Personal Goals</h2>
 					<ul>
 						<li class="fragment">Improve efficiency in the terminal</li>
@@ -183,35 +182,46 @@
 					<p class="fragment">...that are easy to look up...</p>
 					<p class="fragment">...and easy to modify</p>
 					<aside class="notes">look up and commit to memory</aside>
-				</section>
+				</section> -->
 
 				<section id="demo">
 					<h1>Let's go commando!</h1>
-				</section> -->
-				<section id="under-the-hood">
-					<h2>Under the Hood</h2>
-					<h3 class="fragment">Zsh</h3>
-					<ul>
-						<li class="fragment">extended bash shell</li>
-						<li class="fragment">command completion</li>
-						<li class="fragment">shared history</li>
-						<li class="fragment">spelling correction</li>
-						<li class="fragment">themable & customizable</li>
-					</ul>
-					<br>
-					<br>
-					<h3 class="fragment">Oh-My-Zsh</h3>
-					<ul>
-						<li class="fragment">framework for zsh configuration</li>
-						<li class="fragment">themes and plugins</li>
-					</ul>
+					<img src="img/mcbain.gif" alt="">
+				</section>
+				<section>
+					<section id="under-the-hood">
+						<h2>Under the Hood</h2>
+						<h3 class="fragment">Zsh</h3>
+						<ul>
+							<li class="fragment">extended bash shell</li>
+							<li class="fragment">command completion</li>
+							<li class="fragment">shared history</li>
+							<li class="fragment">spelling correction</li>
+							<li class="fragment">themable & customizable</li>
+						</ul>
+						<br>
+						<br>
+						<h3 class="fragment">Oh-My-Zsh</h3>
+						<ul>
+							<li class="fragment">framework for zsh configuration</li>
+							<li class="fragment">aliases, themes and plugins</li>
+						</ul>
+					</section>
+					<section>
+						<p>the default bash prompt:</p>
+						<img src="img/homer_superman.jpg" alt="">
+					</section>
+					<section>
+						<p>ZSH prompt:</p>
+						<img src="img/duff_man.gif" alt="">
+					</section>
 				</section>
 				<section id='dotfiles'>
 					<h2>Check it out!</h2>
 					<a target="_blank" href="http://github.com/robbyrussell/oh-my-zsh">github.com/robbyrussell/oh-my-zsh</a>
+					<!-- <br>
 					<br>
-					<br>
-					<a class='fragment' target="_blank" href="http://github.com/jonoliver/dotfiles">github.com/jonoliver/dotfiles</a>
+					<a class='fragment' target="_blank" href="http://github.com/jonoliver/dotfiles">github.com/jonoliver/dotfiles</a> -->
 				</section>
 
 				<section id="takeaways">
@@ -224,7 +234,7 @@
 							<br>
 							<span class="fragment">understand your aliases</span>
 						</li>
-						<li class="fragment">Read the effin' <code>man</code></li>
+						<li class="fragment">Read the friggin' <code>man</code></li>
 						<li class="fragment">The terminal is powerful ...
 							<br>
 							<span class="fragment">... use your power for good!</span>
