@@ -79,7 +79,7 @@ tmux attach -t "session_name"
 - http://iterm2colorschemes.com/
 
 ####Terminal emulators for Windows:
-- [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/)
-- [Git for Windows](https://msysgit.github.io/)
+- [cmder](http://cmder.net/)
+- [PuTTY](http://www.putty.org/)
+- [Git for Windows](https://git-scm.com/downloads)
 - [Cygwin](https://www.cygwin.com/)
-- [CMDer](https://bliker.github.io/cmder/)
