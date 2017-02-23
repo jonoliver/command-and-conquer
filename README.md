@@ -1,14 +1,16 @@
 ## Command and Conquer
 - [Presentation slides](https://jonoliver.github.io/command-and-conquer/)
-- [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-- [My dotfiles](https://github.com/jonoliver/dotfiles)
-
 
 ### Resources
 
 #### Dotfiles
-- https://dotfiles.github.io/
-- http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
+- [Github Dotfile Guide](https://dotfiles.github.io/)
+- [Using Git and Github to Manage Your Dotfiles](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/)
+- [My dotfiles](https://github.com/jonoliver/dotfiles)
+
+#### Zsh
+- [A User's Guide to the Z-Shell](http://zsh.sourceforge.net/Guide/zshguide.html)
+- [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 #### Tmux
 - [Tmux cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
@@ -21,8 +23,14 @@
 - [$10 credit at Digital Ocean](https://m.do.co/c/da72a8bfea8d)
 
 #### Terminal Improvements
-- http://iterm2colorschemes.com/
-- https://mosh.org/
+- [iTerm color schemes](http://iterm2colorschemes.com/)
+- [Mosh (mobile shell)](https://mosh.org/)
+
+#### Terminal emulators for Windows:
+- [cmder](http://cmder.net/)
+- [PuTTY](http://www.putty.org/)
+- [Git for Windows](https://git-scm.com/downloads)
+- [Cygwin](https://www.cygwin.com/)
 
 ### Commands and Functions
 
@@ -88,9 +96,3 @@ tmux ls
 tmux attach -t "session_name"
 
 ```
-
-### Terminal emulators for Windows:
-- [cmder](http://cmder.net/)
-- [PuTTY](http://www.putty.org/)
-- [Git for Windows](https://git-scm.com/downloads)
-- [Cygwin](https://www.cygwin.com/)
