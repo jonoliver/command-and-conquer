@@ -1,9 +1,31 @@
-##Command and Conquer
+## Command and Conquer
 - [Presentation slides](https://jonoliver.github.io/command-and-conquer/)
 - [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [My dotfiles](https://github.com/jonoliver/dotfiles)
 
-####Commands and Functions
+
+### Resources
+
+#### Dotfiles
+- https://dotfiles.github.io/
+- http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
+
+#### Tmux
+- [Tmux cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
+- [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
+- https://pragprog.com/book/bhtmux/tmux
+
+#### Remote Pair Programming
+- http://pivotallabs.com/how-we-use-tmux-for-remote-pair-programming/
+- http://www.pairprogramwith.me/
+- [$10 credit at Digital Ocean](https://m.do.co/c/da72a8bfea8d)
+
+#### Terminal Improvements
+- http://iterm2colorschemes.com/
+- https://mosh.org/
+
+### Commands and Functions
+
 ```bash
 # file manipulation
 
@@ -67,18 +89,7 @@ tmux attach -t "session_name"
 
 ```
 
-
-####Resources
-- https://dotfiles.github.io/
-- http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
-- [Tmux cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
-- [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
-- https://pragprog.com/book/bhtmux/tmux
-- http://pivotallabs.com/how-we-use-tmux-for-remote-pair-programming/
-- http://www.pairprogramwith.me/
-- http://iterm2colorschemes.com/
-
-####Terminal emulators for Windows:
+### Terminal emulators for Windows:
 - [cmder](http://cmder.net/)
 - [PuTTY](http://www.putty.org/)
 - [Git for Windows](https://git-scm.com/downloads)
