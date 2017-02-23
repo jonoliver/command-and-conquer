@@ -15,12 +15,12 @@
 #### Tmux
 - [Tmux cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
 - [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
-- https://pragprog.com/book/bhtmux/tmux
+- [Tmux: The Book (pragprog)](https://pragprog.com/book/bhtmux/tmux)
 
 #### Remote Pair Programming
-- http://pivotallabs.com/how-we-use-tmux-for-remote-pair-programming/
-- http://www.pairprogramwith.me/
-- [$10 credit at Digital Ocean](https://m.do.co/c/da72a8bfea8d)
+- [Pair With Me (resources and guides)](http://www.pairprogramwith.me/)
+- [How We Use tmux for Remote Pair Programming](http://pivotallabs.com/how-we-use-tmux-for-remote-pair-programming/)
+- [Create a pairing server at Digital Ocean ($10 credit)](https://m.do.co/c/da72a8bfea8d)
 
 #### Terminal Improvements
 - [iTerm color schemes](http://iterm2colorschemes.com/)
