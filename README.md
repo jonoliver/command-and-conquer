@@ -1,9 +1,39 @@
-##Command and Conquer
+## Command and Conquer
 - [Presentation slides](https://jonoliver.github.io/command-and-conquer/)
-- [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+### Resources
+
+#### Dotfiles
+- [Github Dotfile Guide](https://dotfiles.github.io/)
+- [Using Git and Github to Manage Your Dotfiles](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/)
 - [My dotfiles](https://github.com/jonoliver/dotfiles)
 
-####Commands and Functions
+#### Zsh
+- [A User's Guide to the Z-Shell](http://zsh.sourceforge.net/Guide/zshguide.html)
+- [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+#### Tmux
+- [Tmux cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
+- [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
+- [Tmux: The Book (pragprog)](https://pragprog.com/book/bhtmux/tmux)
+
+#### Remote Pair Programming
+- [Pair With Me (resources and guides)](http://www.pairprogramwith.me/)
+- [How We Use tmux for Remote Pair Programming](http://pivotallabs.com/how-we-use-tmux-for-remote-pair-programming/)
+- [Create a pairing server at Digital Ocean ($10 credit)](https://m.do.co/c/da72a8bfea8d)
+
+#### Terminal Improvements
+- [iTerm color schemes](http://iterm2colorschemes.com/)
+- [Mosh (mobile shell)](https://mosh.org/)
+
+#### Terminal emulators for Windows:
+- [cmder](http://cmder.net/)
+- [PuTTY](http://www.putty.org/)
+- [Git for Windows](https://git-scm.com/downloads)
+- [Cygwin](https://www.cygwin.com/)
+
+### Commands and Functions
+
 ```bash
 # file manipulation
 
@@ -66,20 +96,3 @@ tmux ls
 tmux attach -t "session_name"
 
 ```
-
-
-####Resources
-- https://dotfiles.github.io/
-- http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
-- [Tmux cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
-- [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
-- https://pragprog.com/book/bhtmux/tmux
-- http://pivotallabs.com/how-we-use-tmux-for-remote-pair-programming/
-- http://www.pairprogramwith.me/
-- http://iterm2colorschemes.com/
-
-####Terminal emulators for Windows:
-- [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/)
-- [Git for Windows](https://msysgit.github.io/)
-- [Cygwin](https://www.cygwin.com/)
-- [CMDer](https://bliker.github.io/cmder/)
