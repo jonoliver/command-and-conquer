@@ -14,6 +14,7 @@
 
 #### Tmux
 - [Tmux cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
+- [Tmux customization guide](http://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
 - [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
 - [Tmux: The Book (pragprog)](https://pragprog.com/book/bhtmux/tmux)
 
