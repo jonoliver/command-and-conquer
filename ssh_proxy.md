@@ -1,4 +1,4 @@
-# Using ssh to view a remote website
+# Using SSH to view a remote website
 
 Imagine you have a site running on `localhost:3000` on a remote development server and you would like to browse the site on your local machine. SSH makes this a snap with [Dynamic Port Forwarding](https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding#Dynamic_Port_Forwarding)!
 
