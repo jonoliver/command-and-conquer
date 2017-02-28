@@ -1,2 +1,2 @@
-![preferences](screenshots/preferences.png "Firefox preferences"
-![preferences](screenshots/proxy.png "Proxy settings"
+![preferences](screenshots/preferences.png)
+![proxy](screenshots/proxy.png)
