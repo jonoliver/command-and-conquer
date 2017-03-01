@@ -14,6 +14,7 @@
 
 #### Tmux
 - [Tmux cheat sheet](https://gist.github.com/MohamedAlaa/2961058)
+- [Tmux customization guide](http://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
 - [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
 - [Tmux: The Book (pragprog)](https://pragprog.com/book/bhtmux/tmux)
 
@@ -21,6 +22,7 @@
 - [Pair With Me (resources and guides)](http://www.pairprogramwith.me/)
 - [How We Use tmux for Remote Pair Programming](http://pivotallabs.com/how-we-use-tmux-for-remote-pair-programming/)
 - [Create a pairing server at Digital Ocean ($10 credit)](https://m.do.co/c/da72a8bfea8d)
+- [Using SSH to view a remote website](ssh_proxy.md)
 
 #### Terminal Improvements
 - [iTerm color schemes](http://iterm2colorschemes.com/)
