@@ -23,6 +23,7 @@
 - [How We Use tmux for Remote Pair Programming](http://pivotallabs.com/how-we-use-tmux-for-remote-pair-programming/)
 - [Create a pairing server at Digital Ocean ($10 credit)](https://m.do.co/c/da72a8bfea8d)
 - [Using SSH to view a remote website](ssh_proxy.md)
+- [Easy terminal sharing with tmate](https://tmate.io/)
 
 #### Terminal Improvements
 - [iTerm color schemes](http://iterm2colorschemes.com/)
